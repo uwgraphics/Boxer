@@ -33,7 +33,6 @@ Open the `Local` link in a web browser.
                     ├── ConfusionMatrixGrid.vue      
                     └── ...
                     
-     data_converter  # python code to convert raw data to the data format that could be used by Boxer
 
 
 ## Prerequisite
