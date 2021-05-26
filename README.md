@@ -3,8 +3,8 @@
 Managing data for visualization using box algebra
 
 ## Requirements
-* npm <= 6
-* node.js <= 12
+* npm (Version 6.x)
+
 
 ## Usage
 
