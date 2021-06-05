@@ -47,11 +47,11 @@ Before customizing Boxer, you might need to know the following things:
 
 
 ## Other Resources
-* [Boxer website](https://graphics.cs.wisc.edu/Vis/Boxer/)
+* Go to the [Boxer website](https://graphics.cs.wisc.edu/Vis/Boxer/) to learn more detailed information about Boxer system.
 
-* [Guide for data prerparation](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/).
+* If you'd like to apply your data to Boxer, check the [Guide for data prerparation](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/).
 
 
-* [Paper link](https://arxiv.org/abs/2004.07964)
+* The publications can be found [here](https://arxiv.org/abs/2004.07964)
 
-* [Online Demo](https://graphics.cs.wisc.edu/Vis/Boxer/demo/dist/index.html)
+* Try Boxer via the [Online Demo](https://graphics.cs.wisc.edu/Vis/Boxer/demo/dist/index.html)
