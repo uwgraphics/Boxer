@@ -3,7 +3,8 @@
 Managing data for visualization using box algebra
 
 ## Requirements
-* npm
+* npm (Version 6.x)
+
 
 ## Usage
 
@@ -46,14 +47,14 @@ Before customizing Boxer, you might need to know the following things:
 
 
 ## Other Resources
-* [Boxer website](https://graphics.cs.wisc.edu/Vis/Boxer/)
+* Go to the [Boxer website](https://graphics.cs.wisc.edu/Vis/Boxer/) to learn more detailed information about Boxer system.
 
-* [Guide for data prerparation](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/).
+* If you'd like to apply your data to Boxer, check the [Guide for data prerparation](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/).
 
 
-* [Paper link](https://arxiv.org/abs/2004.07964)
+* The publications can be found [here](https://arxiv.org/abs/2004.07964)
 
-* [Online Demo](https://graphics.cs.wisc.edu/Vis/Boxer/demo/dist/index.html)
+* Try Boxer via the [Online Demo](https://graphics.cs.wisc.edu/Vis/Boxer/demo/dist/index.html)
 
 
 ## FAQ
@@ -79,4 +80,3 @@ Please vist the [documentation website](https://graphics.cs.wisc.edu/Vis/Boxer/d
 
 *7. If I want to try the datasets provided in Boxer demo, what I should do?*
 The datasets provided by Boxer demo can all be found in [this repo](https://github.com/uwgraphics/BoxerData). Supposed you want to try **heart disease** dataset, first open the `datasets_config.json` file. The url for **heart disease** dataset can be represented as **SERVER_URL** + **datasets['(continuous) heart disease'].path** = "https://raw.githubusercontent.com/uwgraphics/BoxerData/master/datasets/heart_disease/". Then you can use this url to load the dataset in Boxer.
-
