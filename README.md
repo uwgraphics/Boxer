@@ -1,6 +1,16 @@
 # Boxer
 
-Managing data for visualization using box algebra
+This repo contains the code for Boxer. Some other useful resources are listed as follows:
+
+* [Boxer website](https://graphics.cs.wisc.edu/Vis/Boxer/): detailed information about Boxer system.
+
+* [Guide for data prerparation](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/): instructions to apply your data to Boxer.
+
+* [here](https://arxiv.org/abs/2004.07964): publication.
+
+* [Online Demo](https://graphics.cs.wisc.edu/Vis/Boxer/demo/dist/index.html)
+
+
 
 ## Requirements
 * npm (Version 6.x)
@@ -44,17 +54,6 @@ Before customizing Boxer, you might need to know the following things:
 * [VUE](https://vuejs.org/v2/guide/)
 
 * [TypeScript](https://www.typescriptlang.org/docs/)
-
-
-## Other Resources
-* Go to the [Boxer website](https://graphics.cs.wisc.edu/Vis/Boxer/) to learn more detailed information about Boxer system.
-
-* If you'd like to apply your data to Boxer, check the [Guide for data prerparation](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/).
-
-
-* The publications can be found [here](https://arxiv.org/abs/2004.07964)
-
-* Try Boxer via the [Online Demo](https://graphics.cs.wisc.edu/Vis/Boxer/demo/dist/index.html)
 
 
 ## FAQ
