@@ -32,8 +32,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: cd client
-      - run: npm ci
+      # trying to use the methods from https://stackoverflow.com/questions/58139175/running-actions-in-another-directory
+      - run: |
+        cd cleint
+        npm ci
       - run: npm run build
 
       - name: Deploy
