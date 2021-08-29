@@ -1,10 +1,13 @@
 # Boxer
 
+This repo deploys as a GitHub page at: https://uwgraphics.github.io/BoxerRelease/
+You can go to that link to try things out!
+
 This repo contains the code for Boxer. Some other useful resources are listed as follows:
 
-* [Boxer website](https://graphics.cs.wisc.edu/Vis/Boxer/): detailed information about Boxer system.
+* [Boxer website](https://uwgraphics.github.io/BoxerDocs/): detailed information about Boxer system.
 
-* [Guide for data prerparation](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/): instructions to apply your data to Boxer.
+* [Guide for data prerparation](https://uwgraphics.github.io/BoxerDocs/docs/user_guide/data_preparation/): instructions to apply your data to Boxer.
 
 * [here](https://arxiv.org/abs/2004.07964): publication.
 
