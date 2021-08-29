@@ -33,10 +33,12 @@ jobs:
             ${{ runner.os }}-node-
 
       # trying to use the methods from https://stackoverflow.com/questions/58139175/running-actions-in-another-directory
-      - run: |
-        cd cleint
-        npm ci
-      - run: npm run build
+      - name: npm CI
+        working-directory: ./client
+        run: npm ci
+      - name: npm build
+        working-directory: ./client
+        run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
