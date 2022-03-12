@@ -9,7 +9,7 @@ This repo deploys as a GitHub page at: https://uwgraphics.github.io/Boxer/ whcih
 All datasets provided by this demo can be find at [public datasets repo](https://github.com/uwgraphics/BoxerData).
 
 
-### *For more information on the structure and implementation of Boxer, please visit the [Engineering Supplementary Documentation](./doc.md)
+*For more information on the structure and implementation of Boxer, please visit the [Engineering Supplementary Documentation](./doc.md)
 
 # Boxer
 
