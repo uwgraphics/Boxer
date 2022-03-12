@@ -1,6 +1,6 @@
 This is the "main" Boxer repo. It is taken from the "BoxerRelease" Repo in March of 2022, when the CBoxer paper was published.
 
-This is the CODE REPOSITORY*. If you want the **documentation**, see: [Boxer website](https://uwgraphics.github.io/BoxerDocs/)
+This is the CODE REPOSITORY. If you want the **documentation**, see: [Boxer website](https://uwgraphics.github.io/BoxerDocs/)
 
 This repo **deploys** as a GitHub page at: https://uwgraphics.github.io/Boxer/ which is has the alias: https://pages.graphics.cs.wisc.edu/Boxer
 
@@ -67,7 +67,7 @@ A dataset is represented by a directory containing the following three files:
                                      - second column = `actual` (actual class of the an instance)
                                      - further columns = labels predicted by classifiers
 
-More detailed information about data preparation can be found [here](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/).
+*More detailed information about data preparation can be found [here](https://pages.graphics.cs.wisc.edu/BoxerDocs/docs/user_guide/data_preparation/).
 
 
 ## FAQ
@@ -95,7 +95,7 @@ All components of the right panel are included in `client/src/components/sidebar
 
 **6. How to apply my own data into Boxer?**
 
-Please vist the [documentation website](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/) to learn more about how to apply your own dataset into Boxer.
+Please vist the [documentation website](https://pages.graphics.cs.wisc.edu/BoxerDocs/docs/user_guide/data_preparation/) to learn more about how to apply your own dataset into Boxer.
 
 **7. If I want to try the datasets provided in Boxer demo, what I should do?**
 
