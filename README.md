@@ -6,25 +6,25 @@ This is the CODE REPOSITORY. If you want the documentation, see: [Boxer website]
 
 This repo deploys as a GitHub page at: https://uwgraphics.github.io/Boxer/ whcih is has the alias: https://pages.graphics.cs.wisc.edu/Boxer
 
-You can go to that link to try things out!
-
-This repo contains the code for Boxer. Some other useful resources are listed as follows:
-
-* [Boxer website](https://uwgraphics.github.io/BoxerDocs/): detailed information about Boxer system.
-
-* [Guide for data prerparation](https://uwgraphics.github.io/BoxerDocs/docs/user_guide/data_preparation/): instructions to apply your data to Boxer.
-
-* [here](https://arxiv.org/abs/2004.07964): publication.
-
-* [Online Demo](https://graphics.cs.wisc.edu/Vis/Boxer/demo/dist/index.html)
+All datasets provided by this demo can be find at [public datasets repo](https://github.com/uwgraphics/BoxerData).
 
 
+### *For more information on the structure and implementation of Boxer, please visit the [Engineering Supplementary Documentation](./doc.md)
 
-## Requirements
-* npm (Version 6.x)
+# Boxer
+
+Managing data for visualization using box algebra
 
 
-## Usage
+## Prerequisite
+Before customizing Boxer, you might need to know the following things:
+
+* [npm  (Version 6.x)](https://docs.npmjs.com/cli/v6/commands/npm) 
+
+* [VUE](https://vuejs.org/v2/guide/)
+
+* [TypeScript](https://www.typescriptlang.org/docs/)
+
 
 
 ### Client
@@ -46,22 +46,30 @@ Open the `Local` link in a web browser.
 ## GitHub Repository Contents
      client # scripts and configurations for Boxer
         └── src # source code of building Boxer
+            ├── datasets_config.json # json file of configurations of all Boxer datasets
             └── components
                 └── boxes # contains the source code of each view
                     ├── BandwidthAssessment.vue      
                     ├── ConfusionMatrixGrid.vue      
                     └── ...
                     
+## Add your own dataset
+A dataset is represented by a directory containing the following three files:
 
+    your_dataset
+    ├── features.csv               # Contains feature values for each instance
+    │                                - first column = `id`
+    │
+    ├── manifest.json              # Lists classes and classifiers, and describes features
+    │                                - feature descriptions are used to choose data distribution views
+    │                                Use the feature description format from iris/manifest.json
+    │
+    └── results.csv               # Contains actual class and predicted labels for each instance
+                                     - first column = `id` (one-to-one mapping with `id` in features.csv)
+                                     - second column = `actual` (actual class of the an instance)
+                                     - further columns = labels predicted by classifiers
 
-## Prerequisite
-Before customizing Boxer, you might need to know the following things:
-
-* [npm](https://docs.npmjs.com/cli/v6/commands/npm) 
-
-* [VUE](https://vuejs.org/v2/guide/)
-
-* [TypeScript](https://www.typescriptlang.org/docs/)
+More detailed information about data preparation can be found [here](https://graphics.cs.wisc.edu/Vis/Boxer/docs/data_preparation/).
 
 
 ## FAQ
