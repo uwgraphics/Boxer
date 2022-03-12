@@ -14,7 +14,7 @@ All **datasets** provided by this demo can be find at [public datasets repo](htt
 Managing data for visualization using box algebra
 
 
-## Prerequisite
+### Prerequisite
 Before customizing Boxer, you might need to know the following things:
 
 * [npm  (Version 6.x)](https://docs.npmjs.com/cli/v6/commands/npm) 
