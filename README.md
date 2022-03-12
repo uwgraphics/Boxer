@@ -1,5 +1,3 @@
-# Boxer
-
 This is the "main" Boxer repo. It is taken from the "BoxerRelease" Repo in March of 2022, when the CBoxer paper was published.
 
 This is the CODE REPOSITORY. If you want the documentation, see: [Boxer website](https://uwgraphics.github.io/BoxerDocs/)
