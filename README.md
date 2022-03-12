@@ -1,6 +1,9 @@
 # Boxer
 
-This repo deploys as a GitHub page at: https://uwgraphics.github.io/BoxerRelease/
+This is the "main" Boxer repo. It is taken from the "BoxerRelease" Repo in March of 2022, when the CBoxer paper was published.
+
+This repo deploys as a GitHub page at: https://uwgraphics.github.io/Boxer/ whcih is has the alias: https://pages.graphics.cs.wisc.edu/Boxer
+
 You can go to that link to try things out!
 
 This repo contains the code for Boxer. Some other useful resources are listed as follows:
