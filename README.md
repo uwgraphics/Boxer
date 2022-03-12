@@ -1,10 +1,10 @@
 This is the "main" Boxer repo. It is taken from the "BoxerRelease" Repo in March of 2022, when the CBoxer paper was published.
 
-This is the CODE REPOSITORY. If you want the documentation, see: [Boxer website](https://uwgraphics.github.io/BoxerDocs/)
+This is the CODE REPOSITORY*. If you want the **documentation**, see: [Boxer website](https://uwgraphics.github.io/BoxerDocs/)
 
-This repo deploys as a GitHub page at: https://uwgraphics.github.io/Boxer/ whcih is has the alias: https://pages.graphics.cs.wisc.edu/Boxer
+This repo **deploys** as a GitHub page at: https://uwgraphics.github.io/Boxer/ which is has the alias: https://pages.graphics.cs.wisc.edu/Boxer
 
-All datasets provided by this demo can be find at [public datasets repo](https://github.com/uwgraphics/BoxerData).
+All **datasets** provided by this demo can be find at [public datasets repo](https://github.com/uwgraphics/BoxerData).
 
 
 *For more information on the structure and implementation of Boxer, please visit the [Engineering Supplementary Documentation](./doc.md)
