@@ -33,12 +33,12 @@ const fs = require('browserify-fs');
 
 Vue.use(Vuex);
 
-// const config = require("./datasets_config.json");
+const config = require("./datasets_config.json");
 
 const datasets: {
-} ={};
+} = config.datasets;
 
-// const SERVER_URL =  config.SERVER_URL;
+const SERVER_URL =  config.SERVER_URL;
 
 export default new Vuex.Store({
   state: {
@@ -708,26 +708,25 @@ export default new Vuex.Store({
     changedBaseSelection(context, baseSelection: SelectionRecord) {
       context.commit('setBaseSelection', baseSelection);
     },
-    // changedDatasetByName(context, datasetName: string) {
-    //   const datasetList = Object.keys(context.state.datasets);
-    //   const chosenDataset = datasetList.indexOf(datasetName);
-    //   if (chosenDataset === -1) {
-    //     console.error(`Dataset named ${datasetName} not found in state.datasets`);
-    //     return;
-    //   }
-    //   const datasetPath = SERVER_URL + datasets[datasetName].path;
-    //   context.commit("setChosenFixedDataset", datasets[datasetName])
-    //   context.commit("setClassifierThresholdDict",{});
-    //   context.commit("setThresholdClassifierNameList",[]);
-    //   context.dispatch('changedDataset', datasetPath);
-    // },
+    changedDatasetByName(context, datasetName: string) {
+      const datasetList = Object.keys(context.state.datasets);
+      const chosenDataset = datasetList.indexOf(datasetName);
+      if (chosenDataset === -1) {
+        console.error(`Dataset named ${datasetName} not found in state.datasets`);
+        return;
+      }
+      const datasetPath = SERVER_URL + datasets[datasetName].path;
+      context.commit("setChosenFixedDataset", datasets[datasetName])
+      context.commit("setClassifierThresholdDict",{});
+      context.commit("setThresholdClassifierNameList",[]);
+      context.dispatch('changedDataset', datasetPath);
+    },
     changedDataset(context, datasetURL: string) {
-      // if (datasetURL.substring(0, SERVER_URL.length) == SERVER_URL) {
-      //   context.commit('setFixedDataset','yes')
-      // } else {
-        
-      // }
-      context.commit('setFixedDataset','no')
+      if (datasetURL.substring(0, SERVER_URL.length) == SERVER_URL) {
+        context.commit('setFixedDataset','yes')
+      } else {
+        context.commit('setFixedDataset','no')
+      }
       let datasetPath = datasetURL.endsWith("/") ? datasetURL : datasetURL + "/";
       const filenames = [
         'manifest.json',
